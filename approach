@@ -1,0 +1,21 @@
+first of all, appologies for not being able to fit my code into your model.py. 
+Everything I wrote is in the fit_the_thing.py file. (I wrote it in jupyter notebook,
+so I'm not sure how to fit it in, and it is 2 in the morning right now, too tired to firgure
+it out).
+
+My approach to this is building a neural network that is 4 layers deep. Because
+I do not know how to use any machine learning is yet. I coded everything neccessary to write
+a neural network myself from the ground up. After this, I started to look at the
+data set.
+
+First I noted that the money colums are much larger than the sex and month colums,
+so I normalized the money colums by the biggest value in their respective categories. Secondly,
+Realizing that there are a lot more 0s than 1s in the y_train, I tried batching X_train and
+y_train so that I have more 1s in my training set. I built my neural network and the result of this
+approach wasn't great. So I just used the given training examples.
+
+The results were... odd. All of my predictions were 0. You guys only have 1627 1s out of 7500 test cases
+in the y_test so my accuracy was 78.3%. I was really disapointed, and really wanna know why my network would
+do this.
+
+This was fun, and frustrating, and I thank you for the dataset, it has been a great battle with the computer.
